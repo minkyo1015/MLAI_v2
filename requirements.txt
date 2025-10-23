@@ -1,0 +1,23 @@
+# * **기능:** 프로젝트 실행에 필요한 파이썬 라이브러리 목록입니다[cite: 125].
+# * **코드:**
+
+# ```text
+# .env 파일 로드
+python-dotenv
+
+# Langchain 및 LangGraph 코어
+langchain
+langgraph
+langchain_openai
+langchain_google_genai
+langchain-community
+# 도구 (웹 검색)
+tavily-python
+
+# 재시도를 위한 라이브러리 (지수 백오프)
+tenacity
+
+# 테스트용
+pytest
+pytest-mock
+
